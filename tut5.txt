@@ -1,0 +1,14 @@
+Erlang/OTP 22 [erts-10.4.4] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe] [dtrace]
+
+Eshell V10.4.4  (abort with ^G)
+1> c(tut5).
+{ok,tut5}
+2> tut5:format_temps([{moscow, {c, -10}}, {cape_town, {f, 70}}, {stockholm, {c, 4}}, {paris, {f, 28}}, {london, {f, 36}}).
+* 1: syntax error before: ')'
+2> tut5:format_temps([{moscow, {c, -10}}, {cape_town, {f, 70}}, {stockholm, {c, 4}}, {paris, {f, 28}}, {london, {f, 36}}]).
+moscow          -10 c
+cape_town       21.11111111111111 c
+stockholm       4 c
+paris           -2.2222222222222223 c
+london          2.2222222222222223 c
+ok
