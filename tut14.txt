@@ -1,0 +1,57 @@
+Erlang/OTP 22 [erts-10.4.4] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe] [dtrace]
+
+Eshell V10.4.4  (abort with ^G)
+1> c(tut14).
+tut14.erl:5: Warning: variable 'What' is unused
+{ok,tut14}
+2> tut14:say_something(hello, 3).
+hello
+hello
+hello
+done
+3> tut14:start().
+hello
+goodbye
+hello
+goodbye
+<0.87.0>
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+hello
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
+goodbye
