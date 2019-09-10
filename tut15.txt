@@ -1,0 +1,15 @@
+Erlang/OTP 22 [erts-10.4.4] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe] [dtrace]
+
+Eshell V10.4.4  (abort with ^G)
+1> c(tut15).
+{ok,tut15}
+2> tut15:start().
+Pong received ping
+<0.86.0>
+Ping received  pong
+Pong received ping
+Ping received  pong
+Pong received ping
+Ping received  pong
+ping finished
+Pong finished
